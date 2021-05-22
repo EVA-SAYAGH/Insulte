@@ -1,0 +1,21 @@
+Jeux d’insultes
+Règles du jeu :
+Choix des joueurs
+Au lancement d’une partie, chacun doit choisir le joueur qu’il va incarner. Il y a le choix entre Loic (joueur ayant une faiblesse lorsqu’on l’insulte à propos de ses compétences de développeur), Eva (joueuse ayant une faiblesse lorsqu’on l’insulte à propos de son poids) et Benjamin (ayant une faiblesse si on l’insulte à propos de sa famille).
+Déroulé d’un tour de jeu
+A chaque tour un joueur à la possibilité de faire une des 3 actions ci-dessous :
+1) Choisir un mot à ajouter à son insulte actuelle
+2) Prononcer l’insulte actuelle
+Ceci entraine le calcul du score de l’insulte et ajoute ce score au score total du joueur
+3) Passer son tour
+Ce que l’on peut faire par exemple si aucun mot restant ne nous convient
+Fin de partie
+Deux actions peuvent entrainer la fin du tour
+1) Il ne reste plus aucun mot dans la liste des mots disponibles
+Dans ce cas, le jeu s’arrête. Toute insulte non alors prononcée n’est pas comptabilité !
+2) Les deux joueurs ont successivement passé leur tour
+Calculer le score d’une insulte
+Pour calculer le score d’une insulte, on additionne la puissance de chacun des mots ou groupes de mots constituant l’insulte.
+Un bonus multipliant le score par 2 est appliqué si plus de 30% des mots constituant l’insulte sont relatif au thème faiblesse de l’adversaire
+Un malus divisant le score par 3 est appliqué si la phrase est syntaxiquement très incorrecte (si elle commence ou termine par un mot de type liaison).
+Bonne partie !
